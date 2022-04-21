@@ -1,0 +1,43 @@
+body{
+  background-color: #A05C7B
+}
+
+.header {
+ height: 110px;
+  /*height adjusted to create larger dead space*/
+padding: 30px 0px 60px 0px;
+  /*header text not centered so padding on both right and left are 0*/
+  font-size: 36px;
+}
+
+  /* cohesive font throughout page*/
+html, h1, h2, h3, p {
+  font-family: Consolas, sans-serif;
+  color: white;
+  margin: 14px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+p{
+  font-size: 15px;
+}
+
+/* monochromatic colors for pseudo-class selectors*/
+a:link{
+  color: white;
+}
+a:visited{
+  color: gray;
+}
+a:hover{
+  color:black;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 20px;
+  font-size:12px;
+}
